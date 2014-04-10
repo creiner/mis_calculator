@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+        <title>MIS - Taschenrechner</title>
+    </head>
+    <body>
+        <div class="calculator container">
+            <div class="display">
+                <div class="row col-xs-12">   
+                    <input name="display" style="width: 100%" type="text" size="30" maxlength="30" />
+                </div>
+            </div>
+            <div style="width: 100%">
+            <div class="numpad" >
+                <ul class="row">
+                    <li class="col-xs-3"><button class="btn-7">7</button></li>
+                    <li class="col-xs-3"><button class="btn-8">8</button></li>
+                    <li class="col-xs-3"><button class="btn-9">9</button></li>
+                    <li class="col-xs-3"><button class="btn-plus">+</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="col-xs-3"><button class="btn-4">4</button></li>
+                    <li class="col-xs-3"><button class="btn-5">5</button></li>
+                    <li class="col-xs-3"><button class="btn-6">6</button></li>
+                    <li class="col-xs-3"><button class="btn-minus">-</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="col-xs-3"><button class="btn-1">1</button></li>
+                    <li class="col-xs-3"><button class="btn-2">2</button></li>
+                    <li class="col-xs-3"><button class="btn-3">3</button></li>
+                    <li class="col-xs-3"><button class="btn-multiply">*</button></li>
+                </ul>
+                <ul class="row">
+                    <li class="col-xs-3"><button class="btn-0">0</button></li>
+                    <li class="col-xs-3"><button class="btn-point">.</button></li>
+                    <li class="col-xs-3"><button class="btn-equal">=</button></li>
+                    <li class="col-xs-3"><button class="btn-divide">/</button></li>
+                </ul>
+            </div>
+                </div>
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript">
+            app.initialize();
+        </script>
+    </body>
+</html>
